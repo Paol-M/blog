@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>web &#8211; Paol&#039;s blog</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 31 Dec 2024 01:58:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2024/12/avatar.png</url>
+	<title>web &#8211; Paol&#039;s blog</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Pizzas grow quickly</title>
+		<link>./../../../pizzas-grow-quickly/index.html</link>
+					<comments>./../../../pizzas-grow-quickly/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Paol]]></dc:creator>
+		<pubDate>Sun, 29 Dec 2024 23:22:42 +0000</pubDate>
+				<category><![CDATA[math]]></category>
+		<category><![CDATA[web]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+
+					<description><![CDATA[Should you buy two 15 cm pizzas or one 30 cm pizza when the price is the same? Assuming you want more pizza, you should certainly buy the 30 cm pizza. A 30 cm pizza has four times more pizza than a 15 cm pizza and nine times more pizza than a 10 cm pizza. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Should you buy two 15 cm pizzas or one 30 cm pizza when the price is the same? Assuming you want more pizza, you should certainly buy the 30 cm pizza.</p>
+
+
+
+<figure class="wp-block-image size-large is-style-rounded is-style-rounded--1"><img decoding="async" src="https://live.staticflickr.com/6189/6105027575_6fb4c958c9_b.jpg" alt=""/><figcaption class="wp-element-caption">A vegetarian pizza. Image by <a href="https://www.flickr.com/photos/johnjoh/6105027575/sizes/l/">star5112</a> on Flickr (<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>)</figcaption></figure>
+
+
+
+<p>A 30 cm pizza has four times more pizza than a 15 cm pizza and nine times more pizza than a 10 cm pizza.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="805" height="300" src="./../../../wp-content/uploads/2024/12/RawGraphs-Pizza-sizes.svg" alt="" class="wp-image-43"/></figure>
+
+
+
+<p>The area of a circle is measured using exponents, so it&#8217;s not hard to believe this exponential growth. What is surprising, however, is how simple the formula that leads you to this result is: </p>
+
+
+<span class="wp-katex-eq katex-display" data-display="true">\left( \frac{\text{Big pizza}}{\text{Small pizza}} \right)^2</span>
+
+
+
+<p>This formula will output by how much the bigger pizza&#8217;s area is larger. It works with all units used for distances (centimeters, inches, light-years, etc.) and for both the diameter, which is how pizza sizes are typically advertised, and the radius.</p>
+
+
+
+<p><a href="http://paol-m.github.io/pizza/about">You can read how the formula was derived here.</a> But basically the two pis (the constant 3.14…) cancel out from the top and bottom.</p>
+
+
+
+<h2 class="wp-block-heading">Pizza Calculations: A web page</h2>
+
+
+
+<p>Bored and with a hobby of writing code, I wrote a <em>very</em> simple single-page website that calculated that difference. I thought, &#8220;When ordering pizza, I would be too rushed to calculate it manually.&#8221; But while developing the web page I realized that since I&#8217;m looking for the difference between the areas of two pizzas (and do not care about the areas), the formula can be simplified heavily. I realized that, beyond the little I learned from it, the web page was mostly a waste of my time. Here&#8217;s the link if you want to waste yours:</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://paol-m.github.io/pizza" target="_blank" rel="noreferrer noopener">Visit Pizza Calculations</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading">Crust matters</h2>
+
+
+
+<p>The bigger the pizza, the lower the crust to non-crust ratio. In other words, if you don&#8217;t eat the crust (shame on you), you can subtract <em>2 ×  the crust width</em> from the diameter. Then, the size difference will be even more drastic.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../pizzas-grow-quickly/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
